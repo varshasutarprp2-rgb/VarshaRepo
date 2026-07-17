@@ -7,5 +7,7 @@ public class StudentService {
         System.out.println("ID : " + student.getId());
         System.out.println("Name : " + student.getName());
         System.out.println("Course : " + student.getCourse());
+        System.out.println("Email : " + student.getEmail());
+        System.out.println("Instructor : " + student.getCourse().getInstructor());
     }
 }
